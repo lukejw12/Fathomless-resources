@@ -1,0 +1,12 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "unt-1:rods/basic_rod/basic_rod_gui"
+    },
+    "display": {
+        "gui": {
+            "translation": [10, 0, 0],
+            "scale": [2, 1.125, 2]
+        }
+    }
+}

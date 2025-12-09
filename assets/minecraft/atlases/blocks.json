@@ -1,0 +1,24 @@
+{
+  "sources": [
+    {
+      "type": "directory",
+      "source": "boats",
+      "prefix": "boats/"
+    },
+    {
+      "type": "directory",
+      "source": "rods",
+      "prefix": "rods/"
+    },
+    {
+      "type": "directory",
+      "source": "fish",
+      "prefix": "fish/"
+    },
+    {
+      "type": "directory",
+      "source": "gui",
+      "prefix": "gui/"
+    }
+  ]
+}

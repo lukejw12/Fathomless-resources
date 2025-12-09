@@ -1,0 +1,12 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "unt-1:fish/shallow/cod/cod-selected_0"
+    },
+    "display": {
+        "gui": {
+            "translation": [11, -8, 0],
+            "scale": [2, 2.125, 2]
+        }
+    }
+}

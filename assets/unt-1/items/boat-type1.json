@@ -1,0 +1,463 @@
+{
+	"model": {
+		"type": "composite",
+		"models": [
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/0"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/1"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/2"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/3"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/4"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/5"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/6"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/7"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/8"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/9"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/10"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/11"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/12"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/13"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/14"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/15"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/16"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/17"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/18"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/19"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/20"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/21"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/22"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/23"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/24"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/25"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/26"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/27"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/28"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/29"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/30"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/31"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/32"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/33"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/34"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/35"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/36"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/37"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/38"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/39"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/40"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/41"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/42"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/43"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/44"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/45"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/46"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/47"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/48"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/49"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/50"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/51"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/52"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/53"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/54"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/55"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/56"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/57"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/58"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/59"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/60"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/61"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/62"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/63"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/64"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/65"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/66"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/67"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/68"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/69"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/70"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/71"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/72"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/73"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/74"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/75"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/76"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/77"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/78"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/79"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/80"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/81"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/82"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/83"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/84"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/85"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/86"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/87"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/88"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/89"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/90"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/91"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/92"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/93"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/94"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/95"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/96"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/97"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/98"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/99"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/100"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/101"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/102"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/103"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/104"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/105"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/106"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/107"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/108"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/109"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/110"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/111"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/112"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1/113"
+			}
+		]
+	}
+}

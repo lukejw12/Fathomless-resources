@@ -1,0 +1,15 @@
+{
+    "oversized_in_gui": true,
+    "model": {
+        "type": "condition",
+        "on_true": {
+            "type": "model",
+            "model": "unt-1:fish/shallow/blue_mackerel-selected"
+        },
+        "on_false": {
+            "type": "model",
+            "model": "unt-1:fish/shallow/blue_mackerel-gui"
+    },
+    "property": "carried"
+    }
+}

@@ -1,0 +1,42 @@
+{
+	"textures": {
+		"particle": "unt-1:boats/boat-type1/top_hull/top_hull-seg4",
+		"6": "unt-1:boats/boat-type1/roof_cable_stand/roof_cable_stand-seg1"
+	},
+	"elements": [
+		{
+			"from": [7.625, 4.25, 7.625],
+			"to": [8.375, 11.75, 8.375],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [0, 0, 1, 8],
+					"texture": "#6"
+				},
+				"east": {
+					"uv": [1, 0, 2, 8],
+					"texture": "#6"
+				},
+				"south": {
+					"uv": [2, 0, 3, 8],
+					"texture": "#6"
+				},
+				"west": {
+					"uv": [3, 0, 4, 8],
+					"texture": "#6"
+				},
+				"up": {
+					"uv": [5, 1, 4, 0],
+					"texture": "#6"
+				}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [0, 90, 0],
+			"translation": [-4.875, 4, -5.625],
+			"scale": [1, 1, 1]
+		}
+	}
+}

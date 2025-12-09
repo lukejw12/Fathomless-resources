@@ -1,0 +1,55 @@
+{
+    "targets": {
+        "controller": { "width": 2, "height": 3 },
+        "controller_swap": { "width": 2, "height": 3 },
+        "swap": {}
+    },
+    "passes": [
+        {
+            "vertex_shader": "minecraft:core/screenquad",
+            "fragment_shader": "minecraft:post/blit",
+            "inputs": [
+                { "sampler_name": "DiffuseSampler", "target": "controller" }
+            ],
+            "output": "controller_swap"
+        },
+        {
+            "vertex_shader": "post/program/toggler/copy",
+            "fragment_shader": "post/program/toggler/findcolor",
+            "inputs": [
+                { "sampler_name": "DiffuseSampler", "target": "controller_swap" },
+                { "sampler_name": "ParticleSampler", "target": "minecraft:particles" }
+            ],
+            "output": "controller"
+        },
+        {
+            "vertex_shader": "minecraft:core/screenquad",
+            "fragment_shader": "post/transparency",
+            "inputs": [
+                { "sampler_name": "DiffuseSampler", "target": "minecraft:main" },
+                { "sampler_name": "DiffuseDepthSampler", "target": "minecraft:main", "use_depth_buffer": true },
+                { "sampler_name": "TranslucentSampler", "target": "minecraft:translucent" },
+                { "sampler_name": "TranslucentDepthSampler", "target": "minecraft:translucent", "use_depth_buffer": true },
+                { "sampler_name": "ItemEntitySampler", "target": "minecraft:item_entity" },
+                { "sampler_name": "ItemEntityDepthSampler", "target": "minecraft:item_entity", "use_depth_buffer": true },
+                { "sampler_name": "ParticlesSampler", "target": "minecraft:particles" },
+                { "sampler_name": "ParticlesDepthSampler", "target": "minecraft:particles", "use_depth_buffer": true },
+                { "sampler_name": "CloudsSampler", "target": "minecraft:clouds" },
+                { "sampler_name": "CloudsDepthSampler", "target": "minecraft:clouds", "use_depth_buffer": true },
+                { "sampler_name": "WeatherSampler", "target": "minecraft:weather" },
+                { "sampler_name": "WeatherDepthSampler", "target": "minecraft:weather", "use_depth_buffer": true }
+            ],
+            "output": "swap"
+        },
+        {
+            "vertex_shader": "post/program/toggler/shader",
+            "fragment_shader": "post/program/toggler/shader",
+            "inputs": [
+                { "sampler_name": "DiffuseSampler", "target": "swap" },
+                { "sampler_name": "ControlSampler", "target": "controller" },
+                { "sampler_name": "DiffuseDepthSampler", "target": "minecraft:main", "use_depth_buffer": true }
+            ],
+            "output": "minecraft:main"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "oversized_in_gui": true,
+    "model": {
+        "type": "condition",
+        "on_true": {
+            "type": "model",
+            "model": "unt-1:fish/shallow/cod/cod-selected_270"
+        },
+        "on_false": {
+            "type": "model",
+            "model": "unt-1:fish/shallow/cod/cod-gui_270"
+    },
+    "property": "carried"
+    }
+}

@@ -1,0 +1,46 @@
+{
+	"textures": {
+		"particle": "unt-1:boats/boat-type1/top_hull/top_hull-seg4",
+		"56": "unt-1:boats/boat-type1/tire/tire_rope-seg1"
+	},
+	"elements": [
+		{
+			"from": [7.75, 6.875, 7.75],
+			"to": [8.25, 9.125, 8.25],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [0, 0, 1, 1],
+					"texture": "#56"
+				},
+				"east": {
+					"uv": [0, 1, 1, 2],
+					"texture": "#56"
+				},
+				"south": {
+					"uv": [1, 0, 2, 1],
+					"texture": "#56"
+				},
+				"west": {
+					"uv": [1, 1, 2, 2],
+					"texture": "#56"
+				},
+				"up": {
+					"uv": [1, 3, 0, 2],
+					"texture": "#56"
+				},
+				"down": {
+					"uv": [3, 0, 2, 1],
+					"texture": "#56"
+				}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [0, 75, 0],
+			"translation": [-6.625, -5.875, -5.5],
+			"scale": [1, 1, 1]
+		}
+	}
+}

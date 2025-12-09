@@ -1,0 +1,30 @@
+{
+	"textures": {
+		"particle": "unt-1:boats/boat-type1/top_hull/top_hull-seg4",
+		"2": "unt-1:boats/boat-type1/top_hull/top_hull-seg3"
+	},
+	"elements": [
+		{
+			"from": [5.75, 3.5, 7.25],
+			"to": [10.25, 12.5, 8.75],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [0, 0, 2.5, 4.5],
+					"texture": "#2"
+				},
+				"east": {
+					"uv": [0, 4.5, 1, 9],
+					"texture": "#2"
+				}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [0, 90, 0],
+			"translation": [-3.75, -3.5, -0.75],
+			"scale": [1, 1, 1]
+		}
+	}
+}

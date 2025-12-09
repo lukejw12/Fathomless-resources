@@ -1,0 +1,42 @@
+{
+	"textures": {
+		"particle": "unt-1:boats/boat-type1/top_hull/top_hull-seg4",
+		"4": "unt-1:boats/boat-type1/roof_smokestack/roof_smokestack-seg1"
+	},
+	"elements": [
+		{
+			"from": [6.875, 6.875, 6.875],
+			"to": [9.125, 9.125, 9.125],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [0, 0, 2, 2],
+					"texture": "#4"
+				},
+				"east": {
+					"uv": [0, 2, 2, 4],
+					"texture": "#4"
+				},
+				"south": {
+					"uv": [2, 0, 4, 2],
+					"texture": "#4"
+				},
+				"west": {
+					"uv": [2, 2, 4, 4],
+					"texture": "#4"
+				},
+				"up": {
+					"uv": [2, 6, 0, 4],
+					"texture": "#4"
+				}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [0, 90, 0],
+			"translation": [1.875, 2.125, 0.375],
+			"scale": [1, 1, 1]
+		}
+	}
+}

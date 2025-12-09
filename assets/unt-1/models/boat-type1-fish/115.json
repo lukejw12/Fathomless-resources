@@ -1,0 +1,46 @@
+{
+	"textures": {
+		"particle": "unt-1:boats/boat-type1/top_hull/top_hull-seg4",
+		"58": "unt-1:boats/boat-type1/top_hull/fishing_line"
+	},
+	"elements": [
+		{
+			"from": [4.5, 1, 8],
+			"to": [11.5, 15, 8],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [0, 0, 7, 14],
+					"texture": "#58"
+				},
+				"east": {
+					"uv": [0, 0, 0, 14],
+					"texture": "#58"
+				},
+				"south": {
+					"uv": [7, 0, 0, 14],
+					"texture": "#58"
+				},
+				"west": {
+					"uv": [0, 0, 0, 14],
+					"texture": "#58"
+				},
+				"up": {
+					"uv": [7, 0, 0, 0],
+					"texture": "#58"
+				},
+				"down": {
+					"uv": [7, 0, 0, 0],
+					"texture": "#58"
+				}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [0, 90, 0],
+			"translation": [0.125, -5, 18],
+			"scale": [1, 1, 1]
+		}
+	}
+}

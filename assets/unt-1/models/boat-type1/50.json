@@ -1,0 +1,42 @@
+{
+	"textures": {
+		"particle": "unt-1:boats/boat-type1/top_hull/top_hull-seg4",
+		"34": "unt-1:boats/boat-type1/hull_exterior/hull_exterior-seg12"
+	},
+	"elements": [
+		{
+			"from": [4.875, 5.5, 7.125],
+			"to": [11.125, 10.5, 8.875],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [6, 5, 0, 10],
+					"texture": "#34"
+				},
+				"east": {
+					"uv": [8, 4, 6, 9],
+					"texture": "#34"
+				},
+				"west": {
+					"uv": [10, 4, 8, 9],
+					"texture": "#34"
+				},
+				"up": {
+					"uv": [12, 0, 6, 2],
+					"texture": "#34"
+				},
+				"down": {
+					"uv": [12, 4, 6, 2],
+					"texture": "#34"
+				}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [-45.99297, 68.90942, 44.00703],
+			"translation": [-6.25, -10.19889, -3.77452],
+			"scale": [1, 1, 1]
+		}
+	}
+}

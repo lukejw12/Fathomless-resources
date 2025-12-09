@@ -1,0 +1,471 @@
+{
+	"model": {
+		"type": "composite",
+		"models": [
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/0"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/1"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/2"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/3"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/4"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/5"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/6"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/7"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/8"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/9"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/10"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/11"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/12"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/13"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/14"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/15"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/16"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/17"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/18"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/19"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/20"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/21"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/22"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/23"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/24"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/25"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/26"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/27"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/28"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/29"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/30"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/31"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/32"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/33"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/34"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/35"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/36"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/37"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/38"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/39"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/40"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/41"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/42"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/43"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/44"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/45"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/46"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/47"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/48"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/49"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/50"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/51"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/52"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/53"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/54"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/55"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/56"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/57"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/58"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/59"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/60"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/61"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/62"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/63"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/64"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/65"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/66"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/67"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/68"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/69"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/70"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/71"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/72"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/73"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/74"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/75"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/76"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/77"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/78"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/79"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/80"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/81"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/82"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/83"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/84"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/85"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/86"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/87"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/88"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/89"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/90"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/91"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/92"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/93"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/94"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/95"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/96"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/97"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/98"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/99"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/100"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/101"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/102"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/103"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/104"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/105"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/106"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/107"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/108"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/109"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/110"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/111"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/112"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/113"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/114"
+			},
+			{
+				"type": "model",
+				"model": "unt-1:boat-type1-fish/115"
+			}
+		]
+	}
+}

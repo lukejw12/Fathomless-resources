@@ -1,0 +1,46 @@
+{
+	"textures": {
+		"particle": "unt-1:boats/boat-type1/top_hull/top_hull-seg4",
+		"54": "unt-1:boats/boat-type1/roof_cable_rope/roof_cable_rope-seg5"
+	},
+	"elements": [
+		{
+			"from": [7, 7.875, 7.875],
+			"to": [9, 8.125, 8.125],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [0, 0, 2, 1],
+					"texture": "#54"
+				},
+				"east": {
+					"uv": [2, 1, 3, 2],
+					"texture": "#54"
+				},
+				"south": {
+					"uv": [0, 1, 2, 2],
+					"texture": "#54"
+				},
+				"west": {
+					"uv": [2, 2, 3, 3],
+					"texture": "#54"
+				},
+				"up": {
+					"uv": [2, 3, 0, 2],
+					"texture": "#54"
+				},
+				"down": {
+					"uv": [4, 0, 2, 1],
+					"texture": "#54"
+				}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [0.00005, 85, 62.49995],
+			"translation": [-4.91138, 6.80771, -4.89103],
+			"scale": [1, 1, 1]
+		}
+	}
+}

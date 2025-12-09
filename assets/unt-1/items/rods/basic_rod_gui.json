@@ -1,0 +1,15 @@
+{
+    "oversized_in_gui": true,
+    "model": {
+        "type": "condition",
+        "on_true": {
+            "type": "model",
+            "model": "unt-1:rods/basic_rod_selected"
+        },
+        "on_false": {
+            "type": "model",
+            "model": "unt-1:rods/basic_rod_gui"
+    },
+    "property": "carried"
+    }
+}

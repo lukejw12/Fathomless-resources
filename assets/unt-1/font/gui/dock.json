@@ -1,0 +1,63 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        "\uf001": -1,
+        "\uf003": -2,
+        "\uf004": -4,
+        "\uf005": -8,
+        "\uf006": -16,
+        "\uf007": -18,
+        "\uf008": -32,
+        "\uf002": -22,
+        "\uf128": -128
+      }
+    },
+    {
+  "type": "bitmap",
+  "file": "unt-1:gui/dialouge/dock-title.png",
+  "height": 64,
+  "ascent": 0,
+  "chars": [
+    "\ua000"
+  ]
+},
+    {
+  "type": "bitmap",
+  "file": "unt-1:gui/dialouge/fish-market.png",
+  "height": 18,
+  "ascent": 12,
+  "chars": [
+    "\ua001"
+  ]
+},
+    {
+  "type": "bitmap",
+  "file": "unt-1:gui/dialouge/wet-docks.png",
+  "height": 18,
+  "ascent": 12,
+  "chars": [
+    "\ua002"
+  ]
+},
+    {
+  "type": "bitmap",
+  "file": "unt-1:gui/dialouge/bait-tackle.png",
+  "height": 18,
+  "ascent": 12,
+  "chars": [
+    "\ua003"
+  ]
+},
+    {
+  "type": "bitmap",
+  "file": "unt-1:gui/dialouge/undock.png",
+  "height": 18,
+  "ascent": 12,
+  "chars": [
+    "\ua004"
+  ]
+}
+]
+}

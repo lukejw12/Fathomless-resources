@@ -1,0 +1,12 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "unt-1:fish/shallow/blue_mackerel/blue_mackerel-gui_90"
+    },
+    "display": {
+        "gui": {
+            "translation": [0, -10, 0],
+            "scale": [1.125, 2, 1.125]
+        }
+    }
+}

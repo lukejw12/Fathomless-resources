@@ -1,0 +1,30 @@
+{
+	"textures": {
+		"particle": "unt-1:boats/boat-type1/top_hull/top_hull-seg4",
+		"17": "unt-1:boats/boat-type1/floor_exterior/floor_exterior-seg4"
+	},
+	"elements": [
+		{
+			"from": [2.5, 7.25, 6.875],
+			"to": [13.5, 8.75, 9.125],
+			"light_emission": 0,
+			"faces": {
+				"west": {
+					"uv": [0, 2, 2, 4],
+					"texture": "#17"
+				},
+				"up": {
+					"uv": [11, 2, 0, 0],
+					"texture": "#17"
+				}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [0, 90, 0],
+			"translation": [-4.875, -7.25, -2.75],
+			"scale": [1, 1, 1]
+		}
+	}
+}
