@@ -32,7 +32,6 @@ void main() {
     vertexColor = Color * minecraft_sample_lightmap(Sampler2, UV2);
     texCoord0 = UV0;
     
-    // Calculate view direction (camera looks down -Z in view space)
     vec3 viewSpacePos = (ModelViewMat * vec4(pos, 1.0)).xyz;
     viewDir = normalize(-viewSpacePos);
 }

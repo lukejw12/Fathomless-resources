@@ -17,6 +17,8 @@ out vec2 texCoord0;
 out vec4 vertexColor;
 flat out float isMarker;
 flat out vec4 tint;
+out vec3 worldPos;
+out vec3 viewDirection;
 
 vec2[] corners = vec2[](
     vec2(0, 1),
@@ -31,9 +33,7 @@ const float maxGreen = 253.0;
 void main() {
     tint = Color;
     
-    // Detect marker particle by color: R=254, G=252-253
     if (abs(Color.r * 255. - 254.) < 0.5 && Color.g * 255. > minGreen - 0.5 && Color.g * 255. < maxGreen + 0.5) {
-        // This is a marker - render to corner of screen at pixel (0,0)
         isMarker = 1.0;
         vec2 screenPos = 0.125 * corners[gl_VertexID % 4] - 1.0;
         gl_Position = vec4(screenPos, 0.0, 1.0);
@@ -41,8 +41,9 @@ void main() {
         cylindricalVertexDistance = 0.0;
         texCoord0 = vec2(0);
         vertexColor = vec4(0);
+        worldPos = vec3(0);
+        viewDirection = vec3(0);
     } else {
-        // Normal particle rendering (vanilla code)
         isMarker = 0.0;
         gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
 
@@ -50,5 +51,8 @@ void main() {
         cylindricalVertexDistance = fog_cylindrical_distance(Position);
         texCoord0 = UV0;
         vertexColor = Color * texelFetch(Sampler2, UV2 / 16, 0);
+        
+        worldPos = Position;
+        viewDirection = normalize((inverse(ModelViewMat) * vec4(0.0, 0.0, -1.0, 0.0)).xyz);
     }
 }

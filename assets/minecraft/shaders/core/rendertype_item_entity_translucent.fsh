@@ -19,16 +19,12 @@ void main() {
         discard;
     }
     
-    // Detect night by fog color brightness
-    // Smoother night detection (gradual transition as sun sets)
 float brightness = (FogColor.r + FogColor.g + FogColor.b) / 3.0;
-float nightFactor = smoothstep(0.6, 0.15, brightness);  // Very gradual
+float nightFactor = smoothstep(0.6, 0.15, brightness); 
     
-    // Adjust fog for night - denser and taller
     float envStart = mix(FogEnvironmentalStart, 5.0, nightFactor);
     float envEnd = mix(FogEnvironmentalEnd, 10.0, nightFactor);
     
-    // Use cylindrical distance to make fog "taller"
     float fogDistance = mix(sphericalVertexDistance, cylindricalVertexDistance, nightFactor);
     
     fragColor = apply_fog(color, fogDistance, fogDistance, envStart, envEnd, FogRenderDistanceStart, FogRenderDistanceEnd, FogColor);

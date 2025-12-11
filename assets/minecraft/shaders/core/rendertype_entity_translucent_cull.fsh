@@ -17,11 +17,9 @@ out vec4 fragColor;
 void main() {
     vec4 color = texture(Sampler0, texCoord0);
     
-    // Detect area effect cloud by its specific magenta color (R=1, B=1, G≈0)
     if (color.a > 0.5 && color.r > 0.9 && color.b > 0.9 && color.g < 0.1) {
-        // Write signal to bottom-left corner of screen
         if (gl_FragCoord.x < 1.0 && gl_FragCoord.y < 1.0) {
-            fragColor = vec4(1.0, 0.0, 1.0, 1.0); // Magenta signal
+            fragColor = vec4(1.0, 0.0, 1.0, 1.0);
             return;
         }
     }

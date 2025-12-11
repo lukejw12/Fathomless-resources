@@ -34,9 +34,7 @@ void main() {
     texCoord0 = UV0;
     blockLight = float(UV2.x) / 240.0;
     
-    // Store world position for headlight cone calculation
     worldPos = pos;
     
-    // Camera direction (inverse of view matrix's Z axis)
     viewDirection = normalize((inverse(ModelViewMat) * vec4(0.0, 0.0, -1.0, 0.0)).xyz);
 }
