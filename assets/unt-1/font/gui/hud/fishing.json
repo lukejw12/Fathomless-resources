@@ -1,0 +1,45 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        "\uf001": -1,
+        "\uf003": -2,
+        "\uf004": -4,
+        "\uf005": -8,
+        "\uf006": -16,
+        "\uf007": -18,
+        "\uf008": -32,
+        "\uf002": -22,
+        "\uf128": -128
+      }
+    },
+    {
+  "type": "bitmap",
+  "file": "unt-1:glyphs/fishing/hud/fishing-type-frame.png",
+  "height": 64,
+  "ascent": 0,
+  "chars": [
+    "\ua000"
+  ]
+},
+    {
+  "type": "bitmap",
+  "file": "unt-1:glyphs/fishing/hud/banner-type/shallows.png",
+  "height": 18,
+  "ascent": 12,
+  "chars": [
+    "\ua001"
+  ]
+},
+    {
+  "type": "bitmap",
+  "file": "unt-1:glyphs/fishing/hud/fish-type/cod.png",
+  "height": 18,
+  "ascent": 12,
+  "chars": [
+    "\ua002"
+  ]
+}
+]
+}
