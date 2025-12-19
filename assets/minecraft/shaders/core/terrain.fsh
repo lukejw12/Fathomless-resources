@@ -29,7 +29,7 @@ void main() {
     
     float nightFactor = smoothstep(0.6, 0.15, brightness);
     
-    float envStart = mix(FogEnvironmentalStart, 6.0, nightFactor);
+    float envStart = mix(FogEnvironmentalStart, 4.0, nightFactor);
     float envEnd = mix(FogEnvironmentalEnd, 7.0, nightFactor);
     
     if (hasWither && nightFactor > 0.2) {

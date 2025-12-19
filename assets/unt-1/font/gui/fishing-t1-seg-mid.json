@@ -18,7 +18,7 @@
   "type": "bitmap",
   "file": "unt-1:gui/glyphs/fishing/type-1/trophy-size1.png",
   "height": 32,
-  "ascent": 0,
+  "ascent": -30,
   "chars": [
     "\ue000",
     "\ue001",
@@ -54,7 +54,7 @@
   "type": "bitmap",
   "file": "unt-1:gui/glyphs/fishing/type-1/full-bar.png",
   "height": 32,
-  "ascent": 0,
+  "ascent": -33,
   "chars": [
     "\ub000",
     "\ub001",
@@ -86,7 +86,7 @@
       "type": "bitmap",
       "file": "unt-1:gui/glyphs/fishing/type-1/target-size1.png",
       "height": 32,
-      "ascent": 0,
+      "ascent": -33,
       "chars": [
         "\uc000",
         "\uc001",
@@ -122,7 +122,7 @@
       "type": "bitmap",
       "file": "unt-1:gui/glyphs/fishing/type-1/target-size2.png",
       "height": 32,
-      "ascent": 0,
+      "ascent": -33,
       "chars": [
         "\ud000",
         "\ud001",
@@ -156,7 +156,7 @@
       "type": "bitmap",
       "file": "unt-1:gui/glyphs/fishing/type-1/selector_arrow.png",
       "height": 32,
-      "ascent": 10,
+      "ascent": -23,
       "chars": [
         "\ua000",
         "\ua001",
