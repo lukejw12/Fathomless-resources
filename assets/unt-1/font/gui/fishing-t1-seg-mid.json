@@ -4,6 +4,7 @@
       "type": "space",
       "advances": {
         "\uf001": -1,
+        "\uf000": 4,
         "\uf003": -2,
         "\uf004": -4,
         "\uf005": -8,
@@ -18,7 +19,7 @@
   "type": "bitmap",
   "file": "unt-1:gui/glyphs/fishing/type-1/trophy-size1.png",
   "height": 32,
-  "ascent": -30,
+  "ascent": -33,
   "chars": [
     "\ue000",
     "\ue001",

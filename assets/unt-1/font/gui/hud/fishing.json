@@ -3,6 +3,8 @@
     {
       "type": "space",
       "advances": {
+        "\uf011": 1,
+        "\uf000": 0,
         "\uf001": -1,
         "\uf003": -2,
         "\uf004": -4,
@@ -11,35 +13,37 @@
         "\uf007": -18,
         "\uf008": -32,
         "\uf002": -22,
-        "\uf128": -128
+        "\uf128": -128,
+        "\uf256": 256
+
       }
     },
     {
-  "type": "bitmap",
-  "file": "unt-1:glyphs/fishing/hud/fishing-type-frame.png",
-  "height": 64,
-  "ascent": 0,
-  "chars": [
-    "\ua000"
-  ]
-},
+      "type": "bitmap",
+      "file": "unt-1:gui/glyphs/fishing/hud/fishing-type-frame.png",
+      "height": 64,
+      "ascent": 0,
+      "chars": [
+        "\ua000"
+      ]
+    },
     {
-  "type": "bitmap",
-  "file": "unt-1:glyphs/fishing/hud/banner-type/shallows.png",
-  "height": 18,
-  "ascent": 12,
-  "chars": [
-    "\ua001"
-  ]
-},
+      "type": "bitmap",
+      "file": "unt-1:gui/glyphs/fishing/hud/banner-type/shallows.png",
+      "height": 64,
+      "ascent": 0,
+      "chars": [
+        "\ua001"
+      ]
+    },
     {
-  "type": "bitmap",
-  "file": "unt-1:glyphs/fishing/hud/fish-type/cod.png",
-  "height": 18,
-  "ascent": 12,
-  "chars": [
-    "\ua002"
+      "type": "bitmap",
+      "file": "unt-1:gui/glyphs/fishing/hud/fish-type/cod.png",
+      "height": 64,
+      "ascent": 0,
+      "chars": [
+        "\ua002"
+      ]
+    }
   ]
-}
-]
 }
